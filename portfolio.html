@@ -7,24 +7,29 @@
     <title>Портфоліо</title>
 
     <!-- Шрифти -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Кастомні стилі -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Section Header -->
-        <header class="header">
+    <header class="header">
       <nav class="header-nav">
-        <a class="header-logo" href="" >Web<span class="logo-color">Studio</span></a>
+        <a class="header-logo link" href="./index.html"
+          >Web<span class="header-logo-color">Studio</span></a
+        >
         <ul class="header-list list">
           <li class="header-list-item">
-            <a class="header-link link" href="./index.html">Студия</a>
+            <a class="header-link link current" href="./index.html">Студия</a>
           </li>
           <li class="header-list-item">
-            <a class="header-link link current" href="./portfolio.html">Портфолио</a>
+            <a class="header-link link" href="./portfolio.html">Портфолио</a>
           </li>
           <li class="header-list-item">
             <a class="header-link link" href="">Контакты</a>
@@ -33,7 +38,9 @@
       </nav>
       <ul class="header-contacts list">
         <li class="header-contact">
-          <a class="header-link-contact link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="header-link-contact link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
         </li>
         <li class="header-contact">
           <a class="header-link-contact link" href="tel:+380961111111">+38 096 111 11 11</a>
@@ -46,11 +53,21 @@
       <section>
         <h2>Наши работы</h2>
         <ul class="list">
-          <li><button class="btn btn-works-type" type="button">Все</button></li>
-          <li><button class="btn btn-works-type" type="button">Веб=сайты</button></li>
-          <li><button class="btn btn-works-type" type="button">Приложения</button></li>
-          <li><button class="btn btn-works-type" type="button">Дизайн</button></li>
-          <li><button class="btn btn-works-type" type="button">Маркетинг</button></li>
+          <li>
+            <button class="btn btn-works-type" type="button">Все</button>
+          </li>
+          <li>
+            <button class="btn btn-works-type" type="button">Веб=сайты</button>
+          </li>
+          <li>
+            <button class="btn btn-works-type" type="button">Приложения</button>
+          </li>
+          <li>
+            <button class="btn btn-works-type" type="button">Дизайн</button>
+          </li>
+          <li>
+            <button class="btn btn-works-type" type="button">Маркетинг</button>
+          </li>
         </ul>
       </section>
       <section>
@@ -106,13 +123,21 @@
     </main>
 
     <!-- Section Footer -->
-    <footer>
-      <a href="">Web<span>Studio</span></a>
+    <footer class="footer">
+      <a class="link footer-logo" href="">Web<span class="footer-logo-color">Studio</span></a>
       <address>
-        <ul>
-          <li><p>г. Киев, пр-т Леси Украинки, 26</p></li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="+380961111111">+38 096 111 11 11</a></li>
+        <ul class="list">
+          <li>
+            <a class="footer-link link footer-place" href="">г. Киев, пр-т Леси Украинки, 26</a>
+          </li>
+          <li>
+            <a class="footer-link link footer-contact" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="footer-link link footer-contact" href="+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
       </address>
     </footer>
