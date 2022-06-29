@@ -79,11 +79,7 @@ body {
   color: var(--dark-txt-color);
 }
 
-.header-link-contact {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+.header-contact {
   color: var(--main-txt-color);
 }
 
@@ -92,8 +88,8 @@ body {
   color: var(--accent-color);
 }
 
-.header-link-contact:hover,
-.header-link-contact:focus {
+.header-contact:hover,
+.header-contact:focus {
   color: var(--accent-color);
 }
 
@@ -164,7 +160,7 @@ body {
 .skills-text {
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-txt-color);
 }
 .team {
   background-color: var(--section-bg-color);
@@ -177,21 +173,20 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
+.person {
+  font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
 .person-name {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--dark-txt-color);
+color: var(--dark-txt-color);
 }
 
 .person-position {
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--main-txt-color);
+color: var(--main-txt-color);
 }
 
 .project-item {
